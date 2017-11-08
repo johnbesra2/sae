@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="icon" href="logo.png" type="image/png" >
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="vegas/vegas.min.css">
+<link rel="stylesheet" href="vegas/vegas.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://github.com/johnorgs/template-o-2/blob/master/css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="https://github.com/johnorgs/template-o-2/blob/master/css/animate.css">
+<script src="vegas/vegas.min.js"></script>
+<script src="vegas/vegas.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+
+<style type="text/css">
+  
+@-webkit-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+ .scroll-btn {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.scroll-btn > * {
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #7f8c8d;
+  color: #ffffff;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+  color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 35px;
+  margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 2.5s linear infinite;
+  -moz-animation: ani-mouse 2.5s linear infinite;
+  animation: ani-mouse 2.5s linear infinite;
+}
+.transparenty{
+  color: white;
+  position: fixed;  
+  background:rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100vh;    
+  
+  background-size: cover;
+
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Yanone Kaffeesatz', sans-serif; text-decoration: none;}
+</style>
+</head>
+<body >
+<div class="transparenty w3-center"><h3 class="w3-center" style="margin-top: 40vh;color: white">ATV's <br>IITH RACING</h3>
+
+ 
+  <div style="margin-top:30vh;">
+  <span class="scroll-btn">
+  <span href="#" class="scrolling">
+    <span class="mouse">
+      <span>
+      </span>
+    </span>
+    </span>
+</span>
+
+</div></div>
+  
+<script type="text/javascript">
+  $('body').vegas({
+  overlay: true,
+  transition: 'fade', 
+  transitionDuration: 2000,
+  delay: 5000,
+  animation: 'random',
+  animationDuration: 7000,
+  slides: [
+    { src: 'baja1.jpg' },
+    { src: 'baja6.jpg' },
+    
+    { src: 'baja3.jpg' },
+    { src: 'baja2.jpg' }
+  ]
+});
+</script></body>
+</html>
